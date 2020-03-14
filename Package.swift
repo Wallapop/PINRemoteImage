@@ -10,7 +10,7 @@ let package = Package(
     targets: [
         .target(
             name: "PINRemoteImage",
-            path: "PINRemoteImage/Public",
+            path: "PINRemoteImage/Source",
             publicHeadersPath: nil
         )
     ]
