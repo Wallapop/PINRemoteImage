@@ -6,11 +6,7 @@
 //
 //
 
-#if PIN_TARGET_IOS
 #import <UIKit/UIKit.h>
-#elif PIN_TARGET_MAC
-#import <Cocoa/Cocoa.h>
-#endif
 
 #import "PINRemoteImageManager.h"
 #import "PINRemoteImageCategoryManager.h"
